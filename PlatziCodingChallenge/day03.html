@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 3: Reloj</title>
+</head>
+<body>
+    <h3>Convertidor de horas y minutos a segundos ⏱</h3>
+    <script>
+        var horas_usuario = prompt('Escribe las horas:')
+        var minutos_usuario = prompt('Escribe los segundos')
+        var horas = parseFloat(horas_usuario)
+        var minutos = parseFloat(minutos_usuario)
+        var segundos_totales = horas * 360 + minutos * 60
+        document.write(horas + ' horas con ' + minutos + ' minutos es igual a ' + segundos_totales + ' segundos.')
+    </script>
+    
+</body>
+</html>
